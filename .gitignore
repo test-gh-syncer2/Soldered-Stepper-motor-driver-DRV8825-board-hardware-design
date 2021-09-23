@@ -1,25 +1,41 @@
-#################
-## Soldered - files to ignore
-#################
-
-## Internal development stuff
+# Our internal files folder
 INTERNAL/
-
-## KiCad
-*cache.lib
-*.kicad_pcb-bak
-*.net
-*.gbr
-*.drl
-*fp-info-cache
-*-backups/
-
-## Windows
-Thumbs.db
-Desktop.ini
-
-## Mac OS
+# Thumbnails
+._*
+# OSX
 .DS_Store
-
-## Linux
+.AppleDouble
+.LSOverride
+# Windows 
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+.Spotlight-V100
+.Trashes
+# Eagle backup files
+*.s#?
+*.b#?
+*.l#?
+*.lck
+# KiCAD useless
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+*.sch-bak
 *~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+*.net
+*.dsn
+*.ses
